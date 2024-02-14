@@ -13,7 +13,7 @@ function findFirstRepeated( gifts:number[] ) {
 }
 
 /* prueba */
-const gifts: number[] = [1, 2, 2, 5, 10];
+const gifts: number[] = [1, 2, 5, 10];
 const res = findFirstRepeated(gifts);
 
 if (res !== -1) {
