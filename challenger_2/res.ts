@@ -9,9 +9,7 @@ every = verifica si todos los elementos de un array
 char = este es el parámetro que representa cada carácter individual
     del array generad por split
 
-
-
-
+    
 */
 
 function manufacture(gifts:string[], materials:string) {
