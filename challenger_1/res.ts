@@ -2,11 +2,11 @@ function findFirstRepeated( gifts:number[] ) {
 
     const giftsId: Set<number> = new Set<number>();
 
-    for (var i:number = 0; i < gifts.length; i++) {
-        if(giftsId.has(gifts[i])){
-            return gifts[i];
+    for (const x of gifts) {
+        if(giftsId.has(x)){
+            return x;
         } 
-        giftsId.add(gifts[i]);
+        giftsId.add(x);
     }
     return -1;
 

@@ -1,5 +1,14 @@
 function findNaughtyStep(original:string, modified:string) {
-    
+    const arrayCompleted = new Set<string>()
+
+/*
+
+    for (const x of modified) {
+        if (original.has(x))
+    }
+
+
+*/
 }
 
 
